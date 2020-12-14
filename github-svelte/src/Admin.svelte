@@ -1,7 +1,7 @@
 
 <script>
     import { onMount } from "svelte";
-    const baseUrl = "http://localhost:4000/employees";
+    const baseUrl = "http://localhost:4000/users";
     let posts = [];
     onMount(async () => {
       let res = await fetch(baseUrl);
